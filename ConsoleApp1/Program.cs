@@ -39,6 +39,10 @@ int d = int.Parse (Console.ReadLine() );
 
 int result = a + b + c + d;
 
+
+
+
+
 if (a == 1)
 {
 	Console.WriteLine("True");
