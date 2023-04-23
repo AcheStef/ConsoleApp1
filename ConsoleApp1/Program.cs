@@ -1,4 +1,5 @@
 ﻿using System.Security.Cryptography.X509Certificates;
+using System.Xml.Linq;
 
 Console.WriteLine("Hello, World!");
 //Console.ReadKey();
@@ -26,32 +27,65 @@ Console.WriteLine("Hello, World!");
 
 //var text = Console.ReadLine();
 //Console.WriteLine("Ova e tekstot koj sto e vnesen od stana na user: {0}", text);
+//se sto e vneseno vo readline mora da e string
 
 Console.WriteLine("Vnesete gi posledovatelno 4te varijabli a, b, c, d");
-
+Console.WriteLine("***************************");
 Console.WriteLine("Vnesete go prviot broj"); 
-
-int a = int.Parse (Console.ReadLine() );  //se sto e vneseno vo readline mora da e string
-int b = int.Parse (Console.ReadLine() );
-int c = int.Parse (Console.ReadLine() );
-int d = int.Parse (Console.ReadLine() );
-//int space = " ";
-
-int result = a + b + c + d;
-
-
-
-
+int a = int.Parse (Console.ReadLine() );
 
 if (a == 1)
 {
-	Console.WriteLine("True");
+	Console.Writeline("True");
 }
 else
 {
 	Console.WriteLine("False");
 }
 
+Console.WriteLine("Vnesete go vtoriot broj");
+int b = int.Parse (Console.ReadLine() );
+
+if (b == 2)
+{
+	Console.Writeline("True");
+}
+else
+{
+	Console.WriteLine("False");
+}
+
+
+Console.WriteLine("Vnesete go tretiot broj");
+int c = int.Parse (Console.ReadLine() );
+
+if (c == 3)
+{
+	Console.Writeline("True");
+}
+else
+{
+	Console.WriteLine("False");
+}
+
+Console.WriteLine("Vnesete go cetvrtiot broj");
+int d = int.Parse (Console.ReadLine() );
+
+
+if (d == 4) 
+{
+	Console.Writeline("True");
+}
+else
+{
+	Console.WriteLine("False");
+}
+
+
+
+int result = a + b + c + d;
+
 Console.WriteLine(result);
+//int space = " "; 
 
 
