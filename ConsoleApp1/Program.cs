@@ -34,58 +34,67 @@ Console.WriteLine("***************************");
 Console.WriteLine("Vnesete go prviot broj"); 
 int a = int.Parse (Console.ReadLine() );
 
-if (a == 1)
-{
-	Console.Writeline("True");
-}
-else
-{
-	Console.WriteLine("False");
-}
+//if (a == 1)
+//{
+//	Console.Writeline("True");
+//}
+//else
+//{
+//	Console.WriteLine("False");
+//}
 
 Console.WriteLine("Vnesete go vtoriot broj");
 int b = int.Parse (Console.ReadLine() );
 
-if (b == 2)
-{
-	Console.Writeline("True");
-}
-else
+//if (b == 2)
+//{
+//	Console.Writeline("True");
+//}
+/*else
 {
 	Console.WriteLine("False");
-}
+}*/
 
 
 Console.WriteLine("Vnesete go tretiot broj");
 int c = int.Parse (Console.ReadLine() );
 
-if (c == 3)
+/*if (c == 3)
 {
 	Console.Writeline("True");
 }
 else
 {
 	Console.WriteLine("False");
-}
+}*/
 
 Console.WriteLine("Vnesete go cetvrtiot broj");
 int d = int.Parse (Console.ReadLine() );
 
 
-if (d == 4) 
+/*if (d == 4) 
 {
 	Console.Writeline("True");
 }
 else
 {
 	Console.WriteLine("False");
-}
+}*/
 
 
 
 int result = a + b + c + d;
 
 Console.WriteLine(result);
+
 //int space = " "; 
+
+//nesto developirame novo vo noviot branch 1
+//nesto developirame novo vo noviot branch 2
+//nesto developirame novo vo noviot branch 3
+//nesto developirame novo vo noviot branch 4
+//nesto developirame novo vo noviot branch 5
+//nesto developirame novo vo noviot branch 6 
+//nesto developirame novo vo noviot branch 7
 
 
